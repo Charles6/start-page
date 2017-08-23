@@ -8,8 +8,7 @@ setInterval(function() {
 
     var dayPrint = days[d.getDay()]
     var datePrint = d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear()
-    var timePrint = hours+':'+minutes+':'+seconds
-    var currentTimeString = days[d.getDay()]+' '+d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear()+' - '+hours+':'+minutes+':'+seconds;
+    var timePrint = hours+':'+minutes;
     document.getElementById("day").innerHTML = dayPrint;
     document.getElementById("date").innerHTML = datePrint;
     document.getElementById("time").innerHTML = timePrint;
