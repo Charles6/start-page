@@ -10,7 +10,7 @@ body{
   left:50%;
   top:50%;
   width: 34em;
-  height: 38em;
+  height: 35em;
   margin-left:-17em;
   margin-top:-19em;
   display: flex;
@@ -22,18 +22,25 @@ body{
   background-color:rgba(13,13,13,0.8);
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #day{
-  font-size: 60px;
+  margin-top: 10px;
+  font-size: 35px;
+  flex-wrap: wrap;
+  width: 40px;
 }
 
 #date{
+  margin-top: 10px;
   font-size: 22px;
 }
 
 #time{
-  font-size: 80px;
+  margin-top: -10px;
+  font-size: 100px;
 }
 
 ul{
